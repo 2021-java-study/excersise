@@ -182,13 +182,11 @@
 >
 >   ```bean
 >   <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-> 	  <property name="driverClassName"
-> 		  value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
->		  <property name="jdbcUrl"
->			  value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property>
->  	  <property name="username" value="book_ex"></property>
->		  <property name="password" value="book_ex"></property>
->	  </bean>
+>       <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
+>       <property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property>
+>       <property name="username" value="book_ex"></property>
+>		<property name="password" value="book_ex"></property>
+>	</bean>
 >   ```
 
 ### 4. JUnit 5 적용
