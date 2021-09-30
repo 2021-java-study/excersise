@@ -1,4 +1,4 @@
-# 2021.09.19 (일) : <span style="color:red; font-weight:bold;">(초안)</span>
+# 2021.09.19 (일) : 
 
 ## **이번 주 학습**
 
