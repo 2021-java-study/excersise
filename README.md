@@ -1,10 +1,10 @@
-# 2021.09.19 (일) : <span style="color:red; font-weight:bold;">(초안)</span> -> YJ 최종 정리 예정(by 2021.09.22.
+# 2021.09.19 (일) : <span style="color:red; font-weight:bold;">(초안)</span>
 
 ## **이번 주 학습**
 
 ---
 
-### 3. DB 작업(?) 시 생각해봐야 할 것들(교재 3장)
+### 1. DB 작업(?) 시 생각해봐야 할 것들(교재 3장)
 
 - Oracle DB 에서의 Sorting 작업
   1. ORDER BY: Select 결과를 정렬해주는 구문 뒤에 ASC(오름차순), DESC(내림차순)을 붙인다.
@@ -58,7 +58,7 @@
 
 ---
 
-### 4. 의존성 주입 방법 -> 생성자 주입 패턴 사용!
+### 2. 의존성 주입 방법 -> 생성자 주입 패턴 사용!
 
 - 출처 1: **_[[Design pattern - 실무편] 의존성 주입 (Dependency Injection) 구현하기](https://nowonbun.tistory.com/485)_**
 - 출처 2: **_[생성자 주입을 @Autowired를 사용하는 필드 주입보다 권장하는 하는 이유](https://madplay.github.io/post/why-constructor-injection-is-better-than-field-injection)_**
@@ -161,7 +161,7 @@
 
 ---
 
-### 0. log4j 2 적용
+### 3. log4j 2 적용
 
 - Sql에 전달되는 파라미터값을 보기위해 log4jdbc-log4j2를 따로 설정함.
 > - Pom.xml(Maven)
@@ -191,7 +191,7 @@
 >	  </bean>
 >   ```
 
-### 5. JUnit 5 적용
+### 4. JUnit 5 적용
 
 - 책에서는 JUnit 4 기준으로 예제가 나와있다. 최신 버전인 JUnit 5를 적용하는 방법은 다음과 같다.
 
@@ -288,7 +288,7 @@
 
 ---
 
-### 7. JSTL과 EL
+### 5. JSTL과 EL
 
 - 출처 1: **_[Java Web Foundation: introduction to EL expression and JSTL tag library](https://www.fatalerrors.org/a/java-web-foundation-introduction-to-el-expression-and-jstl-tag-library.html)_**
 - 출처 2: **_[java, jstl, html, javascript 페이지 로딩 순서 / JSTL과 EL 같이 사용하기](https://defacto-standard.tistory.com/249)_**
